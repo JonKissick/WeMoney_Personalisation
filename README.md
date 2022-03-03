@@ -56,6 +56,12 @@ pulling this repository down, you can get started with the following:
 pip install -r requirements.txt
 ```
 
+Once the required packages are loaded, you must then load from Spacy the used model for LDA.
+
+```shell
+python -m spacy download en_core_web_sm
+```
+
 I have created this in python 3.9 and recommend this version for consistency.
 
 ## Running
